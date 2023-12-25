@@ -23,6 +23,6 @@ with open("query.txt", "r") as file:
         reply = response.choices[0].message.content
         messages.append({"role": "assistant", "content": reply})
 
-        with open("answer.txt", "a") as output:
+        with open("answer.txt", "w") as output:
             output.write("\n" + reply + "\n")
 
