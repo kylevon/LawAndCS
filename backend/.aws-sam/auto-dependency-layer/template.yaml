@@ -1,0 +1,75 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'law-and-cs-miniproject
+
+  SAM Template for the law-and-cs-miniproject
+
+  '
+Globals:
+  Function:
+    Timeout: 29
+    MemorySize: 128
+Parameters:
+  OpenAIKey:
+    Type: String
+    Description: OpenAI API Key
+Resources:
+  HighlighterFunction:
+    Cors:
+      AllowHeaders: '''Access-Control-Allow-Headers, Origin,Accept, X-Requested-With,
+        Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers,
+        Authorization'''
+      AllowOrigin: '''*'''
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: HighlighterFunction
+      Handler: app.lambda_handler
+      Runtime: python3.9
+      Architectures:
+      - x86_64
+      Timeout: 29
+      Events:
+        Highlighter:
+          Type: Api
+          Properties:
+            Path: /highlighter
+            Method: post
+        PreflightedHighlighter:
+          Type: Api
+          Properties:
+            Path: /highlighter
+            Method: options
+      Environment:
+        Variables:
+          OPENAI_API_KEY:
+            Ref: OpenAIKey
+      Layers:
+      - Fn::GetAtt:
+        - AwsSamAutoDependencyLayerNestedStack
+        - Outputs.HighlighterFunctiond574878dDepLayer
+    Metadata:
+      SamResourceId: HighlighterFunction
+  AwsSamAutoDependencyLayerNestedStack:
+    DeletionPolicy: Delete
+    Metadata:
+      CreatedBy: AWS SAM CLI sync command
+    Properties:
+      TemplateURL: /home/kyle/Academic/OxfordMSC/courses/law/mockup/backend/.aws-sam/auto-dependency-layer/adl_nested_template.yaml
+    Type: AWS::CloudFormation::Stack
+Outputs:
+  HighlighterApi:
+    Description: API Gateway endpoint URL for the highlighter function
+    Value:
+      Fn::Sub: https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/highlighter/
+  HighlighterFunction:
+    Description: Highlighter Lambda Function ARN
+    Value:
+      Fn::GetAtt:
+      - HighlighterFunction
+      - Arn
+  HighlighterFunctionIamRole:
+    Description: Implicit IAM Role created for the highlighter function
+    Value:
+      Fn::GetAtt:
+      - HighlighterFunctionRole
+      - Arn

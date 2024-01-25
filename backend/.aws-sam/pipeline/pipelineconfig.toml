@@ -1,0 +1,18 @@
+version = 0.1
+[default.pipeline_bootstrap.parameters]
+pipeline_user = "arn:aws:iam::414409331516:user/aws-sam-cli-managed-api-update-pipelin-PipelineUser-HRt0xdc4OwaP"
+permissions_provider = "AWS IAM"
+
+[api-update.pipeline_bootstrap.parameters]
+pipeline_execution_role = "arn:aws:iam::414409331516:role/aws-sam-cli-managed-api-updat-PipelineExecutionRole-vO2ozo3oKjTf"
+cloudformation_execution_role = "arn:aws:iam::414409331516:role/aws-sam-cli-managed-api-u-CloudFormationExecutionRo-fhYFsanXC7X4"
+artifacts_bucket = "aws-sam-cli-managed-api-update-pip-artifactsbucket-h3qd84vjmexf"
+image_repository = ""
+region = "eu-west-2"
+
+[api-rebuild-stage-2.pipeline_bootstrap.parameters]
+pipeline_execution_role = "arn:aws:iam::414409331516:role/aws-sam-cli-managed-api-rebui-PipelineExecutionRole-pU2eroYb8Wzx"
+cloudformation_execution_role = "arn:aws:iam::414409331516:role/aws-sam-cli-managed-api-r-CloudFormationExecutionRo-aVJLS5dywwzZ"
+artifacts_bucket = "aws-sam-cli-managed-api-rebuild-st-artifactsbucket-unwk8gvhiaoy"
+image_repository = ""
+region = "eu-west-2"

@@ -1,0 +1,45 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'law-and-cs-miniproject
+
+  SAM Template for the law-and-cs-miniproject
+
+  '
+Globals:
+  Function:
+    Timeout: 3
+    MemorySize: 128
+Resources:
+  HighlighterFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: HighlighterFunction
+      Handler: app.lambda_handler
+      Runtime: python3.9
+      Architectures:
+      - x86_64
+      Events:
+        Highlighter:
+          Type: Api
+          Properties:
+            Path: /highlighter
+            Method: get
+    Metadata:
+      SamResourceId: HighlighterFunction
+Outputs:
+  HighlighterApi:
+    Description: API Gateway endpoint URL for the highlighter function
+    Value:
+      Fn::Sub: https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/highlighter/
+  HighlighterFunction:
+    Description: Highlighter Lambda Function ARN
+    Value:
+      Fn::GetAtt:
+      - HighlighterFunction
+      - Arn
+  HighlighterFunctionIamRole:
+    Description: Implicit IAM Role created for the highlighter function
+    Value:
+      Fn::GetAtt:
+      - HighlighterFunctionRole
+      - Arn

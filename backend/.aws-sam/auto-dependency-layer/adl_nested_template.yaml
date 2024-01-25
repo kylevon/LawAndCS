@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: AWS SAM CLI Nested Stack for Auto Dependency Layer Creation
+Metadata:
+  SamCliInfo: 1.107.0
+  key: AWS SAM CLI sync command
+Outputs:
+  HighlighterFunctiond574878dDepLayer:
+    Value:
+      Ref: HighlighterFunctiond574878dDepLayer
+Resources:
+  HighlighterFunctiond574878dDepLayer:
+    Metadata:
+      CreatedBy: AWS SAM CLI sync command
+    Properties:
+      CompatibleRuntimes:
+      - python3.9
+      ContentUri: /home/kyle/Academic/OxfordMSC/courses/law/mockup/backend/.aws-sam/auto-dependency-layer/HighlighterFunctiond574878dDepLayer
+      Description: Auto created layer for dependencies of function HighlighterFunction
+      LayerName: law-and-cs-minipd045cc3c-HighlighterFunctiond574878d-DepLayer
+      RetentionPolicy: Delete
+    Type: AWS::Serverless::LayerVersion
+Transform: AWS::Serverless-2016-10-31

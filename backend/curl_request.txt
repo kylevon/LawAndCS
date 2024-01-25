@@ -1,0 +1,3 @@
+curl -X POST "https://ijuoj0at6f.execute-api.eu-west-2.amazonaws.com/Prod/highlighter/" \
+     -H "Content-Type: application/json" \
+     -d '{"prompt":"Anna punched jack, while she was drunk, outside of a pub."}'
