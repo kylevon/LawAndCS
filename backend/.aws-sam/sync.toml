@@ -2,12 +2,12 @@
 
 [sync_state]
 dependency_layer = true
-latest_infra_sync_time = "2024-01-25T09:45:21.991508"
+latest_infra_sync_time = "2024-02-19T21:02:43.832570"
 
 [resource_sync_states]
 [resource_sync_states."AutoDependencyLayerParentSyncFlow:HighlighterFunction"]
-hash = "cba3186b86fc3efd945554c63f36033c1a9aee7f3cb6b27bb1819bc24822a47d"
-sync_time = "2024-01-25T09:50:46.660998"
+hash = "4ae44809041604c0ac2517d3dd7f4f26c011269f44b09b28581d72451ce1b190"
+sync_time = "2024-02-21T19:39:16.093406"
 
 [resource_sync_states."AutoDependencyLayerSyncFlow:HighlighterFunctiond574878dDepLayer"]
 hash = "c1c91570ee150b2138acfab0a2789278309aefd37222d593156139316cb408b4"

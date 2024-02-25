@@ -1,0 +1,7 @@
+[
+    {
+        "case_text": "She had severe bruising, tenderness, grazes and scratch marks. She described suffering from blurred vision and vomiting. In her victim impact statement Miss Williams described the severe impact that the assault had had on her physically and emotionally.",
+        "guideline_text": "Serious physical injury or serious psychological harm and/or substantial impact upon victim",
+        "comments": "Her significant injuries and aftermath of the attack indicate physical harm under category 1: "Serious physical injury or serious psychological harm and/or substantial impact upon victim." Additionally, her witness statement emphasising the emotional impact indicates serious psychological harm under category 1."
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "case_text": "Intoxicated",
+        "guideline_text": "The fact that an offender is voluntarily intoxicated at the time of the offence will tend to increase the seriousness of the offence provided that the intoxication has contributed to the offending. This applies regardless of whether the offender is under the influence of legal or illegal substance(s). In the case of a person addicted to drugs or alcohol the intoxication may be considered not to be voluntary, but the court should have regard to the extent to which the offender has sought help or engaged with any assistance which has been offered or made available in dealing with the addiction. An offender who has voluntarily consumed drugs and/or alcohol must accept the consequences of the behaviour that results, even if it is out of character.",
+        "comments": "Intoxication tends to increase the seriousness of the case (aggravating factor) if the person was voluntarily intoxicated and if it contributed to the crime. The case lacks details of whether the intoxication contributed to the crime. Since the attack was rather out of character for her, an argument can be made that the alcohol was relevant for her decision to attack."
+    },
+    {
+        "case_text": "small quantity of cannabis",
+        "guideline_text": "In the case of a person addicted to drugs or alcohol the intoxication may be considered not to be voluntary, but the court should have regard to the extent to which the offender has sought help or engaged with any assistance which has been offered or made available in dealing with the addiction. An offender who has voluntarily consumed drugs and/or alcohol must accept the consequences of the behaviour that results, even if it is out of character.",
+        "comments": "Apparently, she did not consume this before the crime, otherwise it would have been stated in the facts, so it does not constitute an aggravating factor. If she had consumed it, it could have contributed to 'intoxication' as an aggravating factor."
+    },
+    {
+        "case_text": "she had drunk more than she usually would. She told the pre-sentence report that she was heavily intoxicated",
+        "guideline_text": "The fact that an offender is voluntarily intoxicated at the time of the offence will tend to increase the seriousness of the offence provided that the intoxication has contributed to the offending. This applies regardless of whether the offender is under the influence of legal or illegal substance(s). In the case of a person addicted to drugs or alcohol the intoxication may be considered not to be voluntary, but the court should have regard to the extent to which the offender has sought help or engaged with any assistance which has been offered or made available in dealing with the addiction. An offender who has voluntarily consumed drugs and/or alcohol must accept the consequences of the behaviour that results, even if it is out of character.",
+        "comments": "Her alcohol intake and intoxication constitute an aggravating factor."
+    }
+]
+

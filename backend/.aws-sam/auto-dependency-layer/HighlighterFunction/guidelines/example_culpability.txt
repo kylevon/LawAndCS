@@ -1,0 +1,23 @@
+[
+    {
+        "case_text": "she came across the offender and Yarnold",
+        "guideline_text": "Impulsive/spontaneous and short-lived assault",
+        "comments": "The attack was not premeditated. It happened spontaneously at a random encounter. This is very relevant for determining culpability which is relevant for the offence category. For this conclusion, of course the highlighted sentence alone would not be sufficient, it is rather the whole context of the previous paragraphs that leads up to this conclusion that she did not plan the attack in advance but rather decided for it on the spot. This indicates Lesser Culpability."
+    },
+    {
+        "case_text": "saw the offender and Yarnold allow Miss Williams to get up before launching another attack, forcing her back to the ground",
+        "guideline_text": "Prolonged/persistent assault",
+        "comments": "This indicates high culpability (category A) because of 'Prolonged/persistent assault'. This is assessed by taking into account all circumstances of the situation and attack."
+    },
+    {
+        "case_text": "kicked her barefoot",
+        "guideline_text": "A – High Culpability Significant degree of planning or premeditation Victim obviously vulnerable due to age, personal characteristics or circumstances Use of a highly dangerous weapon or weapon equivalent; a highly dangerous weapon can include weapons such as knives and firearms. Highly dangerous weapon equivalents can include corrosive substances (such as acid), whose dangerous nature must be substantially above and beyond the legislative definition of an offensive weapon which is; ‘any article made or adapted for use for causing injury, or is intended by the person having it with him for such use’. The court must determine whether the weapon or weapon equivalent is highly dangerous on the facts and circumstances of the case. Strangulation/suffocation/asphyxiation Leading role in group activity Prolonged/persistent assault B – Medium culpability Use of a weapon or weapon equivalent which does not fall within category A Lesser role in group activity Cases falling between category A or C because: Factors in both high and lesser categories are present which balance each other out; and/or The offender’s culpability falls between the factors as described in high and lesser culpability. C – Lesser culpability No weapon used Excessive self defence Impulsive/spontaneous and short-lived assault Mental disorder or learning disability, where linked to the commission of the offence:",
+        "comments": "She did not use a highly dangerous weapon, which would fall under High Culpability (A). But it can be ‘use of a weapon or weapon equivalent which does not fall within category A’, hence, indicating Medium Culpability (B), if the kick was especially dangerous and thereby making up for the lack of a shoe. Here, the case lacks details about the nature of the kick other than that it was barefoot. Otherwise it would indicate only Lesser Culpability (C)."
+    },
+    {
+        "case_text": "trauma-related events",
+        "guideline_text": "Mental disorder or learning disability, where linked to the commission of the offence:",
+        "comments": "This could reduce culpability by falling under 'mental disorder or learning disability' like a PTSD or an anxiety disorder. The assessment whether the ‘trauma-related events’ were linked to the offence is complex and dependent on a holistic view of the situation. Since her past traumas were not in direct relation to the victim or the situation but rather independent hardships in her past, the better arguments stride for a mitigating factor, instead of reducing culpability."
+    }
+]
+

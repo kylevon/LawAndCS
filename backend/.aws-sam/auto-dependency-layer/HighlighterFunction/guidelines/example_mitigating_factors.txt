@@ -1,0 +1,27 @@
+[
+    {
+        "case_text": "aged 26",
+        "guideline_text": "Age and/or lack of maturity can affect: the offender’s responsibility for the offence and the effect of the sentence on the offender. Either or both of these considerations may justify a reduction in the sentence. The emotional and developmental age of an offender is of at least equal importance to their chronological age (if not greater). In particular young adults (typically aged 18-25) are still developing neurologically and consequently may be less able to: evaluate the consequences of their actions; limit impulsivity; limit risk taking.  Young adults are likely to be susceptible to peer pressure and are more likely to take risks or behave impulsively when in company with their peers.",
+        "comments": "26 years is above the range in the guidelines (18-25). However, this is only an indication. If the offender shows some element of immaturity, this in combination with the age slightly above the range could be a mitigating factor."
+    },
+    {
+        "case_text": "trauma-related events",
+        "guideline_text": "Mental disorder or learning disability, where not linked to the commission of the offence",
+        "comments": "This could be a mitigating factor falling within 'mental disorder or learning disability' like a PTSD or an anxiety disorder. The assessment whether the ‘trauma-related events’ were linked to the offence is complex and dependent on a holistic view of the situation. Since her past traumas were not in direct relation to the victim or the situation but rather independent hardships in her past, the better arguments stride for a mitigating factor, instead of reducing culpability."
+    },
+    {
+        "case_text": "There was a further confrontation",
+        "guideline_text": "Significant degree of provocation",
+        "comments": "This doesn't seem enough to establish the mitigating factor of 'Significant degree of provocation'. Not any kind of provocation is sufficient to constitute a mitigating factor. A prior confrontation to the attack is not necessarily a ‘provocation’, that depends on the circumstances. In this case, the prior confrontation resembles rather a normal heated dispute and not a provocation, in any case, not to a significant degree."
+    },
+    {
+        "case_text": "no previous convictions or cautions",
+        "guideline_text": "First time offenders usually represent a lower risk of reoffending. Reoffending rates for first offenders are significantly lower than rates for repeat offenders. In addition, first offenders are normally regarded as less blameworthy than offenders who have committed the same crime several times already. For these reasons first offenders receive a mitigated sentence. Where there are previous offences but these are old and /or are for offending of a different nature, the sentence will normally be reduced to reflect that the new offence is not part of a pattern of offending and there is therefore a lower likelihood of reoffending. When assessing whether a previous conviction is ‘recent’ the court should consider the time gap since the previous conviction and the reason for it.",
+        "comments": "Since she has no previous convictions or cautions this constitutes a mitigating factor."
+    },
+    {
+        "case_text": "trauma-related events",
+        "guideline_text": "Mental disorder or learning disability, where not linked to the commission of the offence",
+        "comments": "This could be a mitigating factor falling within 'mental disorder or learning disability' like a PTSD or an anxiety disorder. The assessment whether the ‘trauma-related events’ were linked to the offence is complex and dependent on a holistic view of the situation. Since her past traumas were not in direct relation to the victim or the situation but rather independent hardships in her past, the better arguments stride for a mitigating factor, instead of reducing culpability."
+    }
+]
